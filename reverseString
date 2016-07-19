@@ -1,0 +1,12 @@
+function reverseString(str) { 
+
+  // code goes here  
+  var nstr = '';
+  for (i = str.length - 1; i >= 0; i--) {
+      nstr += str[i];
+  }
+  return nstr;
+}
+
+var input = prompt("Type any phrase that you would like to see reversed!")
+console.log(reverseString(input))
